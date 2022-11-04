@@ -6,3 +6,41 @@
     --bs-popover-body-padding-x: 1rem;
     --bs-popover-body-padding-y: .5rem;
   }
+
+  .fondo {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: 310px;
+  }
+
+  .tunel{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    rotate: 180deg;
+  }
+
+  .tunel2{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    margin-top: 315px;
+    margin-left: 730px;
+  }
+
+  .contenedor{
+    margin: auto;
+    width: 50%;
+    height: 50%;
+  }
