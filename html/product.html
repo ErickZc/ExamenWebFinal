@@ -5,17 +5,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+    integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/styleAnimation.css">
   <title>Product</title>
 </head>
 
-<body style="margin-top: 7rem;">
+<body>
   <!-- MENU -->
   <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #1f222e;">
     <div class="container">
@@ -47,14 +56,35 @@
   </nav>
 
   <!-- Animación -->
-  <div class="contenedor">
-    <img src="../img/fondoMarioBros.jpg" alt="" class="fondo">
-    <img src="../img/Mario.gif" alt="" class="person">
-    <img src="../img/tunel.png" alt="" class="tunel">
-    <img src="../img/tunel.png" alt="" class="tunel2">
-</div>
+  <div class="containerA">
+    <div class="nav-bar">
+      <i class='bx bx-menu-alt-left menuA'></i>
+      <i class='bx bxs-user-circle profileA'></i>
+    </div>
+    <img class="car-1" src="../img/tesla2.png" alt="">
+    <h1>Model S</h1>
+    <p>
+      Model S id built from the ground up as an electric vehicle, whith height strength architecture.
+    </p>
+    <div class="buy">
+      <i class='bx bxs-cart-alt'></i>
+    </div>
+    <img class="car-final" src="../img/tesla1.png" alt="">
+    <h2>Congratulations</h2>
+    <h5 class="summary">
+      Your order for Model S will be delivered to your door step within 5-7 business days
+    </h5>
+    <h5 class="summary-2">
+      More text that doesn't make sense but I dont know that else to type here because i have never purcharsed a
+      car.
+      <br><br> Thank You
+    </h5>
+    <i class='bx bx-arrow-back back-button'></i>
+  </div>
 
-<script src="../js/animacion.js"></script>
+  <!-- Libreria Green Sock -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="../js/animacion.js"></script>
 
 </body>
 
